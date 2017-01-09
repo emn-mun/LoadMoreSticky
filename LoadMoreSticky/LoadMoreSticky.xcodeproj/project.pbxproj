@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025D1892DBA8404495AFB318 /* libPods-LoadMoreSticky.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D25F6E5B2AD8410322DA418 /* libPods-LoadMoreSticky.a */; };
+		E0B4D6C81E0ABDA60070C4B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B4D6C71E0ABDA60070C4B1 /* main.m */; };
+		E0B4D6CB1E0ABDA60070C4B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B4D6CA1E0ABDA60070C4B1 /* AppDelegate.m */; };
+		E0B4D6CE1E0ABDA60070C4B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B4D6CD1E0ABDA60070C4B1 /* ViewController.m */; };
+		E0B4D6D11E0ABDA60070C4B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B4D6CF1E0ABDA60070C4B1 /* Main.storyboard */; };
+		E0B4D6D31E0ABDA60070C4B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B4D6D21E0ABDA60070C4B1 /* Assets.xcassets */; };
+		E0B4D6D61E0ABDA60070C4B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B4D6D41E0ABDA60070C4B1 /* LaunchScreen.storyboard */; };
+		E0B4D6E21E0ABF7E0070C4B1 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B4D6E11E0ABF7E0070C4B1 /* MyCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D25F6E5B2AD8410322DA418 /* libPods-LoadMoreSticky.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoadMoreSticky.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5F45EBF9EDADB44804B881 /* Pods-LoadMoreSticky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadMoreSticky.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoadMoreSticky/Pods-LoadMoreSticky.release.xcconfig"; sourceTree = "<group>"; };
+		99836A24E10A98FF8C5A2E1E /* Pods-LoadMoreSticky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadMoreSticky.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoadMoreSticky/Pods-LoadMoreSticky.debug.xcconfig"; sourceTree = "<group>"; };
+		E0B4D6C31E0ABDA60070C4B1 /* LoadMoreSticky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadMoreSticky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B4D6C71E0ABDA60070C4B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0B4D6C91E0ABDA60070C4B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0B4D6CA1E0ABDA60070C4B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0B4D6CC1E0ABDA60070C4B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0B4D6CD1E0ABDA60070C4B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0B4D6D01E0ABDA60070C4B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0B4D6D21E0ABDA60070C4B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0B4D6D51E0ABDA60070C4B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0B4D6D71E0ABDA60070C4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B4D6E01E0ABF7E0070C4B1 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		E0B4D6E11E0ABF7E0070C4B1 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0B4D6C01E0ABDA60070C4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025D1892DBA8404495AFB318 /* libPods-LoadMoreSticky.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		127EB5230A96DC97366A3942 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D25F6E5B2AD8410322DA418 /* libPods-LoadMoreSticky.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1141C01FDFD0785ACEDE847 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99836A24E10A98FF8C5A2E1E /* Pods-LoadMoreSticky.debug.xcconfig */,
+				8C5F45EBF9EDADB44804B881 /* Pods-LoadMoreSticky.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0B4D6BA1E0ABDA60070C4B1 = {
+			isa = PBXGroup;
+			children = (
+				E0B4D6C51E0ABDA60070C4B1 /* LoadMoreSticky */,
+				E0B4D6C41E0ABDA60070C4B1 /* Products */,
+				A1141C01FDFD0785ACEDE847 /* Pods */,
+				127EB5230A96DC97366A3942 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0B4D6C41E0ABDA60070C4B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0B4D6C31E0ABDA60070C4B1 /* LoadMoreSticky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0B4D6C51E0ABDA60070C4B1 /* LoadMoreSticky */ = {
+			isa = PBXGroup;
+			children = (
+				E0B4D6C91E0ABDA60070C4B1 /* AppDelegate.h */,
+				E0B4D6CA1E0ABDA60070C4B1 /* AppDelegate.m */,
+				E0B4D6CC1E0ABDA60070C4B1 /* ViewController.h */,
+				E0B4D6CD1E0ABDA60070C4B1 /* ViewController.m */,
+				E0B4D6E01E0ABF7E0070C4B1 /* MyCollectionViewCell.h */,
+				E0B4D6E11E0ABF7E0070C4B1 /* MyCollectionViewCell.m */,
+				E0B4D6CF1E0ABDA60070C4B1 /* Main.storyboard */,
+				E0B4D6D21E0ABDA60070C4B1 /* Assets.xcassets */,
+				E0B4D6D41E0ABDA60070C4B1 /* LaunchScreen.storyboard */,
+				E0B4D6D71E0ABDA60070C4B1 /* Info.plist */,
+				E0B4D6C61E0ABDA60070C4B1 /* Supporting Files */,
+			);
+			path = LoadMoreSticky;
+			sourceTree = "<group>";
+		};
+		E0B4D6C61E0ABDA60070C4B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0B4D6C71E0ABDA60070C4B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0B4D6C21E0ABDA60070C4B1 /* LoadMoreSticky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B4D6DA1E0ABDA60070C4B1 /* Build configuration list for PBXNativeTarget "LoadMoreSticky" */;
+			buildPhases = (
+				9B19553595DD13DE454B9BB7 /* [CP] Check Pods Manifest.lock */,
+				E0B4D6BF1E0ABDA60070C4B1 /* Sources */,
+				E0B4D6C01E0ABDA60070C4B1 /* Frameworks */,
+				E0B4D6C11E0ABDA60070C4B1 /* Resources */,
+				B1BF45B43F1AA0FD3F0DDFFE /* [CP] Embed Pods Frameworks */,
+				539C5B9AF54A656EEE1EAD0C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoadMoreSticky;
+			productName = LoadMoreSticky;
+			productReference = E0B4D6C31E0ABDA60070C4B1 /* LoadMoreSticky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0B4D6BB1E0ABDA60070C4B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.loadMoreSticky;
+				TargetAttributes = {
+					E0B4D6C21E0ABDA60070C4B1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = E0B4D6BE1E0ABDA60070C4B1 /* Build configuration list for PBXProject "LoadMoreSticky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0B4D6BA1E0ABDA60070C4B1;
+			productRefGroup = E0B4D6C41E0ABDA60070C4B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0B4D6C21E0ABDA60070C4B1 /* LoadMoreSticky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0B4D6C11E0ABDA60070C4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B4D6D61E0ABDA60070C4B1 /* LaunchScreen.storyboard in Resources */,
+				E0B4D6D31E0ABDA60070C4B1 /* Assets.xcassets in Resources */,
+				E0B4D6D11E0ABDA60070C4B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		539C5B9AF54A656EEE1EAD0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoadMoreSticky/Pods-LoadMoreSticky-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B19553595DD13DE454B9BB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1BF45B43F1AA0FD3F0DDFFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoadMoreSticky/Pods-LoadMoreSticky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0B4D6BF1E0ABDA60070C4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B4D6CE1E0ABDA60070C4B1 /* ViewController.m in Sources */,
+				E0B4D6CB1E0ABDA60070C4B1 /* AppDelegate.m in Sources */,
+				E0B4D6E21E0ABF7E0070C4B1 /* MyCollectionViewCell.m in Sources */,
+				E0B4D6C81E0ABDA60070C4B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0B4D6CF1E0ABDA60070C4B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0B4D6D01E0ABDA60070C4B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0B4D6D41E0ABDA60070C4B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0B4D6D51E0ABDA60070C4B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0B4D6D81E0ABDA60070C4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0B4D6D91E0ABDA60070C4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0B4D6DB1E0ABDA60070C4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99836A24E10A98FF8C5A2E1E /* Pods-LoadMoreSticky.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LoadMoreSticky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanuel.LoadMoreSticky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0B4D6DC1E0ABDA60070C4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5F45EBF9EDADB44804B881 /* Pods-LoadMoreSticky.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LoadMoreSticky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanuel.LoadMoreSticky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0B4D6BE1E0ABDA60070C4B1 /* Build configuration list for PBXProject "LoadMoreSticky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B4D6D81E0ABDA60070C4B1 /* Debug */,
+				E0B4D6D91E0ABDA60070C4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B4D6DA1E0ABDA60070C4B1 /* Build configuration list for PBXNativeTarget "LoadMoreSticky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B4D6DB1E0ABDA60070C4B1 /* Debug */,
+				E0B4D6DC1E0ABDA60070C4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0B4D6BB1E0ABDA60070C4B1 /* Project object */;
+}
