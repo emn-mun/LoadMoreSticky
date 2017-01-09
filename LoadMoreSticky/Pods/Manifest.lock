@@ -1,12 +1,16 @@
 PODS:
-  - UIScrollView-InfiniteScroll (1.0.0)
+  - IGListKit (2.1.0):
+    - IGListKit/Default (= 2.1.0)
+  - IGListKit/Default (2.1.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (2.1.0)
 
 DEPENDENCIES:
-  - UIScrollView-InfiniteScroll (~> 1.0.0)
+  - IGListKit (~> 2.1)
 
 SPEC CHECKSUMS:
-  UIScrollView-InfiniteScroll: d26885be71caca7485cdb37eab513a8f89036bb0
+  IGListKit: b826c68ef7a4ae1626c09d4d3e1ea7a169e6c36e
 
-PODFILE CHECKSUM: fc664dbf46a16e42bf740a847fbe48c1cce4027f
+PODFILE CHECKSUM: 15451ab8b399d72b231b1b16d4e481f9752475d8
 
 COCOAPODS: 1.1.1
