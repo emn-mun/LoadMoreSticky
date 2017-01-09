@@ -6,5 +6,4 @@ target 'LoadMoreSticky' do
   # use_frameworks!
 
   # Pods for LoadMoreSticky
-  pod 'UIScrollView-InfiniteScroll', '~> 1.0.0'
 end
