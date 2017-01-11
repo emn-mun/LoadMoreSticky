@@ -1,31 +1,32 @@
-//
-//  ViewController.m
-//  LoadMoreSticky
-//
-//  Created by Emanuel Munteanu on 21/12/2016.
-//  Copyright © 2016 com.loadMoreSticky. All rights reserved.
-//
-
-#import "ViewController.h"
+#import "NativeCollectionViewController.h"
 #import "MyCollectionViewCell.h"
 
 #define CELL_IDENTIFIER @"cell_id"
 
-@interface ViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
+@interface NativeCollectionViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
 @property (strong, nonatomic) NSMutableArray *items;
-@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (strong, nonatomic) UICollectionView *collectionView;
 @property (nonatomic) BOOL addingItems;
 @end
 
-@implementation ViewController
+@implementation NativeCollectionViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.addingItems = NO;
+    
+    self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:[[UICollectionViewFlowLayout alloc] init]];
+    self.collectionView.backgroundColor = [UIColor whiteColor];
+    self.collectionView.translatesAutoresizingMaskIntoConstraints = NO;
+    self.collectionView.delegate = self;
+    self.collectionView.dataSource = self;
+    
+    [self.view addSubview:self.collectionView];
     
     self.items =  [NSMutableArray arrayWithArray:@[ @"item",@"item",@"item",@"item",@"item",@"item",@"item",@"item",@"item",@"item",@"item",@"item",@"item",@"item"]];
     
     [self.collectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"HeaderView"];
+    [self.collectionView registerClass:[MyCollectionViewCell class] forCellWithReuseIdentifier:CELL_IDENTIFIER];
+    
     ((UICollectionViewFlowLayout *)self.collectionView.collectionViewLayout).sectionHeadersPinToVisibleBounds = YES;
 }
 - (void)dealloc {
@@ -43,7 +44,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     MyCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CELL_IDENTIFIER forIndexPath:indexPath];
     if (!cell) {
-        cell = [[MyCollectionViewCell alloc] init];
+        cell = [[MyCollectionViewCell alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 50)];
     }
     cell.titleLabel.text = [self.items[indexPath.row] stringByAppendingString:@(indexPath.row).stringValue];
     return cell;
@@ -53,6 +54,10 @@
     if (!self.addingItems && self.items.count - indexPath.row <= 3) {
         [self addMoreItems];
     }
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return CGSizeMake(self.view.frame.size.width, 50);
 }
 
 - (void)addMoreItems {
@@ -82,9 +87,9 @@
     if (kind == UICollectionElementKindSectionHeader) {
         UICollectionReusableView *reusableview = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"HeaderView" forIndexPath:indexPath];
         if (reusableview == nil) {
-            reusableview = [[UICollectionReusableView alloc] initWithFrame:CGRectMake(0, 0, 250, 44)];
+            reusableview = [[UICollectionReusableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44)];
         }
-        UILabel *label=[[UILabel alloc] initWithFrame:CGRectMake(0, 0, 250, 44)];
+        UILabel *label=[[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44)];
         label.text = [NSString stringWithFormat:@"My Header #%li", indexPath.section + 1];
         [reusableview setBackgroundColor: [UIColor redColor]];
         [reusableview addSubview:label];

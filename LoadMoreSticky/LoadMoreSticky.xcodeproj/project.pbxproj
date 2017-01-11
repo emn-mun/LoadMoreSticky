@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		025D1892DBA8404495AFB318 /* libPods-LoadMoreSticky.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D25F6E5B2AD8410322DA418 /* libPods-LoadMoreSticky.a */; };
+		0CE10C891E257C67001601B1 /* IGListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE10C881E257C67001601B1 /* IGListCollectionViewController.m */; };
 		E0B4D6C81E0ABDA60070C4B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B4D6C71E0ABDA60070C4B1 /* main.m */; };
 		E0B4D6CB1E0ABDA60070C4B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B4D6CA1E0ABDA60070C4B1 /* AppDelegate.m */; };
-		E0B4D6CE1E0ABDA60070C4B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B4D6CD1E0ABDA60070C4B1 /* ViewController.m */; };
-		E0B4D6D11E0ABDA60070C4B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B4D6CF1E0ABDA60070C4B1 /* Main.storyboard */; };
+		E0B4D6CE1E0ABDA60070C4B1 /* NativeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B4D6CD1E0ABDA60070C4B1 /* NativeCollectionViewController.m */; };
 		E0B4D6D31E0ABDA60070C4B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B4D6D21E0ABDA60070C4B1 /* Assets.xcassets */; };
 		E0B4D6D61E0ABDA60070C4B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B4D6D41E0ABDA60070C4B1 /* LaunchScreen.storyboard */; };
 		E0B4D6E21E0ABF7E0070C4B1 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B4D6E11E0ABF7E0070C4B1 /* MyCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CE10C871E257C67001601B1 /* IGListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListCollectionViewController.h; sourceTree = "<group>"; };
+		0CE10C881E257C67001601B1 /* IGListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGListCollectionViewController.m; sourceTree = "<group>"; };
 		1D25F6E5B2AD8410322DA418 /* libPods-LoadMoreSticky.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoadMoreSticky.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5F45EBF9EDADB44804B881 /* Pods-LoadMoreSticky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadMoreSticky.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoadMoreSticky/Pods-LoadMoreSticky.release.xcconfig"; sourceTree = "<group>"; };
 		99836A24E10A98FF8C5A2E1E /* Pods-LoadMoreSticky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadMoreSticky.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoadMoreSticky/Pods-LoadMoreSticky.debug.xcconfig"; sourceTree = "<group>"; };
@@ -25,9 +27,8 @@
 		E0B4D6C71E0ABDA60070C4B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0B4D6C91E0ABDA60070C4B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0B4D6CA1E0ABDA60070C4B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0B4D6CC1E0ABDA60070C4B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0B4D6CD1E0ABDA60070C4B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E0B4D6D01E0ABDA60070C4B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0B4D6CC1E0ABDA60070C4B1 /* NativeCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeCollectionViewController.h; sourceTree = "<group>"; };
+		E0B4D6CD1E0ABDA60070C4B1 /* NativeCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeCollectionViewController.m; sourceTree = "<group>"; };
 		E0B4D6D21E0ABDA60070C4B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B4D6D51E0ABDA60070C4B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0B4D6D71E0ABDA60070C4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,11 +88,12 @@
 			children = (
 				E0B4D6C91E0ABDA60070C4B1 /* AppDelegate.h */,
 				E0B4D6CA1E0ABDA60070C4B1 /* AppDelegate.m */,
-				E0B4D6CC1E0ABDA60070C4B1 /* ViewController.h */,
-				E0B4D6CD1E0ABDA60070C4B1 /* ViewController.m */,
+				E0B4D6CC1E0ABDA60070C4B1 /* NativeCollectionViewController.h */,
+				E0B4D6CD1E0ABDA60070C4B1 /* NativeCollectionViewController.m */,
+				0CE10C871E257C67001601B1 /* IGListCollectionViewController.h */,
+				0CE10C881E257C67001601B1 /* IGListCollectionViewController.m */,
 				E0B4D6E01E0ABF7E0070C4B1 /* MyCollectionViewCell.h */,
 				E0B4D6E11E0ABF7E0070C4B1 /* MyCollectionViewCell.m */,
-				E0B4D6CF1E0ABDA60070C4B1 /* Main.storyboard */,
 				E0B4D6D21E0ABDA60070C4B1 /* Assets.xcassets */,
 				E0B4D6D41E0ABDA60070C4B1 /* LaunchScreen.storyboard */,
 				E0B4D6D71E0ABDA60070C4B1 /* Info.plist */,
@@ -171,7 +173,6 @@
 			files = (
 				E0B4D6D61E0ABDA60070C4B1 /* LaunchScreen.storyboard in Resources */,
 				E0B4D6D31E0ABDA60070C4B1 /* Assets.xcassets in Resources */,
-				E0B4D6D11E0ABDA60070C4B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,24 +231,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B4D6CE1E0ABDA60070C4B1 /* ViewController.m in Sources */,
+				E0B4D6CE1E0ABDA60070C4B1 /* NativeCollectionViewController.m in Sources */,
 				E0B4D6CB1E0ABDA60070C4B1 /* AppDelegate.m in Sources */,
 				E0B4D6E21E0ABF7E0070C4B1 /* MyCollectionViewCell.m in Sources */,
 				E0B4D6C81E0ABDA60070C4B1 /* main.m in Sources */,
+				0CE10C891E257C67001601B1 /* IGListCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E0B4D6CF1E0ABDA60070C4B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0B4D6D01E0ABDA60070C4B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E0B4D6D41E0ABDA60070C4B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
